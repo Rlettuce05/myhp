@@ -1,6 +1,7 @@
 $(() => {
     var context = $("#ClockPlace").getContext("2d");
-    if (!context) {
-        $("#message").removeClass("hide");
+    if (context) {
+        context.fillstyle = "rgb(180, 225, 151)"
+        context.arc(75, 75, 50, 0, Math.PI * 2, true);
     }
 })
