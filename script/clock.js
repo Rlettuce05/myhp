@@ -12,14 +12,18 @@ function setup() {
         context.fill();
         context.fillStyle = "rgb(78, 148, 79)";
         context.font = "45px Akshar"
-        context.beginPath();
-        context.fillText("12", 235, 45);
+        context.fillText("12", 230, 45);
         context.fillText("1", 355, 75);
-        context.fillText("2", 425, 150);
-        context.fillText("3", 455, 250);
+        context.fillText("2", 427, 155);
+        context.fillText("3", 455, 265);
         context.fillText("4", 425, 370);
-        context.fillText("5", 358, 452);
-        context.fillText("6", 250, 485);
-        context.fillText("9", 25, 255);
+        context.fillText("5", 350, 460);
+        context.fillText("6", 240, 485);
+        context.fillText("7", 127, 460);
+        context.fillText("8", 50, 375);
+        context.fillText("9", 20, 267);
+        context.fillText("10", 37, 153);
+        context.fillText("11", 125, 70);
+        
     }
 }
