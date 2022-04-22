@@ -24,6 +24,6 @@ function setup() {
         context.fillText("9", 20, 267);
         context.fillText("10", 37, 153);
         context.fillText("11", 125, 70);
-        
+        context.save();
     }
 }
