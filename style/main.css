@@ -5,3 +5,6 @@
 .titles {
     display: none;
 }
+.visible {
+    display: inline;
+}
