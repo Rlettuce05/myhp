@@ -2,13 +2,24 @@
 body {
     font-family: 'Shippori Mincho B1', serif;
 }
+.pagelink-div {
+    position: relative;
+}
 .pagelink-img {
     width: 250px;
     height: auto;
 }
 .titles {
-    display: none;
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    font-size: 150%;
+    left: 90px;
+    top: 95px;
+    transition: all 200ms 0s ease;
 }
 .visible {
-    display: inline;
+    color: rgba(0, 0, 0, 1);
+    font-size: 200%;
+    left: 75px;
+    top: 100px;
 }
