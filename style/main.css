@@ -21,6 +21,11 @@ body {
     width: 100vw;
     z-index: 2;
 }
+/*
+.myname {
+    実に困る
+}
+*/
 .pagelink-div {
     position: relative;
 }
