@@ -1,5 +1,5 @@
 $(() => {
-    $(".pagelink-div").each(function () {
+    $(".pagelink").each(function () {
         $(this).mouseover(function () { 
             $(".titles").addClass("visible");
             $(".pagelink-img").addClass("visible");
